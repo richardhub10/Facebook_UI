@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PostList from './components/PostList.jsx';
 import PostForm from './components/PostForm.jsx';
 
-const API_URL = ""; // ✅ your backend URL
-
+const API_URL = "http://localhost:8080";
 export default function App() {
   const [posts, setPosts] = useState([]);
   const [editing, setEditing] = useState(null);
