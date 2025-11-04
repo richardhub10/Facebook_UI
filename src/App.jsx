@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PostList from './components/PostList.jsx';
 import PostForm from './components/PostForm.jsx';
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://facebook-api-xmva.onrender.com";
 export default function App() {
   const [posts, setPosts] = useState([]);
   const [editing, setEditing] = useState(null);
